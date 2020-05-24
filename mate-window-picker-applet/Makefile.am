@@ -23,7 +23,7 @@ mate_window_picker_applet_SOURCES = \
 	task-list.c \
 	task-list.h \
 	task-title.c \
-	task-title.h 
+	task-title.h
 
 appletdir       = $(datadir)/mate-panel/applets
 applet_in_files = org.mate.panel.MateWindowPicker.mate-panel-applet.desktop.in
@@ -71,3 +71,4 @@ CLEANFILES = \
 	*.gschema.valid \
 	$(service_DATA)
 
+-include $(top_srcdir)/git.mk
